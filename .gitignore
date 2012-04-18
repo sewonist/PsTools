@@ -1,0 +1,7 @@
+bin-debug
+certificates
+.DS_*
+*.swp
+*.apk
+*.ipa
+

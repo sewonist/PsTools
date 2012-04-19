@@ -1,7 +1,25 @@
+
+# OS
+# 
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+#
+# iOS
+#
 bin-debug
 certificates
-.DS_*
 *.swp
 *.apk
 *.ipa
 
+#
+# flex
+#
+.actionScriptProperties
+.flexProperties
+.project
+.settings/*
+bin-debug/*

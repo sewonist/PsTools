@@ -38,7 +38,7 @@ package
 			if($command == 'toolChanged' && _id != $extra){
 				trace($extra);
 				var name:String = ToolStringConverter.idToName($extra);
-				psTools.instance.toolsView.setTool(name);
+				Main.instance.toolsView.setTool(name);
 			}
 		}
 	}

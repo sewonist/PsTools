@@ -228,7 +228,7 @@ package
 		private function setTool():void
 		{
 			var className:String = getQualifiedClassName(_currentTool);
-			psTools.instance.toolsView.setTool(className);
+			Main.instance.toolsView.setTool(className);
 		}
 		
 		private function startTimer():void

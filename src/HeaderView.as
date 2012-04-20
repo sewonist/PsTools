@@ -36,8 +36,8 @@ package
 		private function handleStatus(e:MouseEvent):void
 		{
 			if(_status == ConnectionController.CONNECTED){
-				psTools.instance.toolsView.visible = !psTools.instance.toolsView.visible;
-				psTools.instance.connectView.visible = !psTools.instance.connectView.visible;
+				Main.instance.toolsView.visible = !Main.instance.toolsView.visible;
+				Main.instance.connectView.visible = !Main.instance.connectView.visible;
 			}
 		}
 		
